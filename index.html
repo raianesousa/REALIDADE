@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <title>Formuário HTML5</title>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    <div class="page">
+        <header>
+            <img src="https://sead.ufms.br/files/2022/09/logo-ufms-digital.png">
+            <img src="https://sead.ufms.br/files/2023/03/UFMS.png "> 
+    
+        </header>
+    <form method="post" action="/cadastro_resultado.php">
+                <div class="form-group">
+                    <label for="inputAddress">Nome Completo </label>
+                    <input type="text" class="form-control" id="inputAddress" name="nome" required>
+                  </div>
+
+                <div class="form-group">
+                    <label for="inputAddress">CPF</label>
+                    <input type="number" class="form-control" id="inputAddress" name="cpf" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="exampleInputEmail1">E-mail</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="inputAddress">Web-site</label>
+                    <input type="text" class="form-control" id="inputAddress" name="website">
+                </div>
+
+                <div class="form-group">
+                    <label for="inputAddress">Endereço</label>
+                    <input type="text" class="form-control" id="inputAddress" name="endereco" required>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputtext">Bairro</label>
+                      <input type="text" class="form-control" id="inputtext" name="bairro">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label for="inputteext">Cidade</label>
+                      <input type="text" class="form-control" id="inputtext" name="cidade" required>
+                    </div>
+                  </div>
+
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label for="inputtext">CEP</label>
+                      <input type="text" class="form-control" id="inputtext" name="cep" required>
+                    </div>
+                    <div class="form-group col-md-4">
+                            <label for="inputEstado">UF</label>
+                            <select id="inputEstado" class="form-control">
+                            <option selected>Escolher</option>
+                            <option value="ac">AC</option> 
+                            <option value="al">AL</option> 
+                            <option value="am">AM</option> 
+                            <option value="ap">AP</option> 
+                            <option value="ba">BA</option> 
+                            <option value="ce">CE</option> 
+                            <option value="df">DF</option> 
+                            <option value="es">ES</option> 
+                            <option value="go">GO</option> 
+                            <option value="ma">MA</option> 
+                            <option value="mt">MT</option> 
+                            <option value="ms">MS</option> 
+                            <option value="mg">MG</option> 
+                            <option value="pa">PA</option> 
+                            <option value="pb">PB</option> 
+                            <option value="pr">PR</option> 
+                            <option value="pe">PE</option> 
+                            <option value="pi">PI</option> 
+                            <option value="rj">RJ</option> 
+                            <option value="rn">RN</option> 
+                            <option value="ro">RO</option> 
+                            <option value="rs">RS</option> 
+                            <option value="rr">RR</option> 
+                            <option value="sc">SC</option> 
+                            <option value="se">SE</option> 
+                            <option value="sp">SP</option> 
+                            <option value="to">TO</option> 
+                        </select>
+                    </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label for="inputTelefone">Telefone</label>
+                            <input type="number" class="form-control" id="inputTelefone" name="telefone" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputtext">Data de Nascimento</label>
+                          <input type="text" class="form-control" id="inputtext" name="datanascimento" >
+                        </div>
+
+                        <div class="form-row">
+                                <label for="inputtext">Sexo</label>
+                        </div>
+
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="opcao1">
+                            <label class="form-check-label" for="inlineRadiom">M</label>
+                          </div>
+                          <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="opcao2">
+                            <label class="form-check-label" for="inlineRadiof">F</label>
+                          </div>
+
+
+                       
+                    
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="inputtext">Celular</label>
+                          <input type="text" class="form-control" id="inputtext"  required >
+                        </div>
+                        <div class="form-group col-md-4">
+                            <label for="inputEstcivil">Est. Civil</label>
+                            <select id="inputEstcivil" class="form-control">
+                            <option selected value="casado">Casado</option>
+                            <option selected value="divorciado">Divorciado</option>
+                            <option selected value="viuvo">Viúvo</option>
+                            <option selected value="solteiro">Solteiro</option>
+                            </select>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                              <label for="inputtext">Login</label>
+                              <input type="text" class="form-control" id="inputtext"  required>
+                            </div>
+                            <div class="form-group col-md-6">
+                              <label for="inputPassword4">Senha</label>
+                              <input type="password" class="form-control" id="inputPassword4"  required>
+                            </div>
+                        </div>
+        </br>
+        </br>
+
+        <label>Deseja Receber informações sobre os seguintes assuntos abaixo:</label>
+
+        <div class="check-wrapper">
+            <input type="checkbox" id="tecnologia">
+            <label for="Tec">Tecnologia</label>
+
+            <input type="checkbox" id="esportes">
+            <label for="esportes">Esportes</label>
+
+            <input type="checkbox" id="automoveis">
+            <label for="automoveis">Automóveis</label>
+
+            <input type="checkbox" id="culinaria">
+            <label for="culinaria">Culinária</label>
+
+            <input type="checkbox" id="politica">
+            <label for="politica">Política</label>
+
+            <input type="checkbox" id="policial">
+            <label for="policial">Policial</label>
+        
+            <input type="checkbox" id="tempo">
+            <label for="tempo">Tempo</label>
+
+        </br>
+
+            <input type="checkbox" id="cultura">
+            <label for="cultura">Cultura</label>
+
+            <input type="checkbox" id="economia">
+            <label for="economia">Economia</label>
+
+            <input type="checkbox" id="jogos">
+            <label for="jogos">Jogos</label>
+
+            <input type="checkbox" id="educaçao">
+            <label for="educaçao">Educação</label>
+
+            <input type="checkbox" id="viagem">
+            <label for="viagem">Viagem</label>
+
+            <input type="checkbox" id="emprego">
+            <label for="emprego">Empregos</label>
+
+            <input type="checkbox" id="moda">
+            <label for="moda">Moda e Estilo</label>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" required>
+            <label class="form-check-label" for="defaultCheck1">
+                Li as regras de cadastro e autorizo a criação do usuário
+            </label>
+        </div>
+    </div>
+    <div>
+      <input type=submit value="Confirmar">
+      <input type=submit value="Retornar">
+
+
+    </form>
+</body>
+</html>
